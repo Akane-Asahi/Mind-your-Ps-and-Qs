@@ -53,15 +53,12 @@ output: 693529123416505412979446025120625035374876994645029007711823240743237277
 
 plain_text = pow(c, d, n)
 print(plain_text)
-
 output: 13016382529449106065927291425342535437996222135352905256639573959002849415739773
 
 print(f”Now converting this decimal value to hex value {hex(plain_text)}”)
-
 output: Now converting this decimal value to hex value 0x7069636f4354467b736d6131315f4e5f6e305f67306f645f31333638363637397d
 
 plain_text_ascii = bytearray.fromhex(hex(plain_text)[2:]).decode(‘ascii’)
 
 print(plain_text_ascii)
-
 output: picoCTF{sma11_N_n0_g0od_13686679}
